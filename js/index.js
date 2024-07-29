@@ -11,23 +11,7 @@ function scrollFunction() {
 }
 
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
 }
 
-/*
-// Disable right-click context menu
-document.addEventListener('contextmenu', function(event) {
-    event.preventDefault();
-});
-
-// Disable text selection
-document.addEventListener('selectstart', function(event) {
-    event.preventDefault();
-});
-
-// Disable text copying
-document.addEventListener('copy', function(event) {
-    event.preventDefault();
-});
-*/
